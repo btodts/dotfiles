@@ -52,9 +52,12 @@ module.exports = {
     // border color (window, tabs)
     borderColor: "",
 
+    // remove the border set by the Cobalt2 theme
+    wickedBorder: false,
+
     // border just like the hyper logo
     hyperBorder: {
-      borderWidth: "1px"
+      borderWidth: "2px"
     },
 
     // config for the hyper-tabs-enhanced plugin
